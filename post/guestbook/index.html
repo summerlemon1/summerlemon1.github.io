@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>标签列表 | _hibiku樰存の日记本</title>
+<title>留言 | _hibiku樰存の日记本</title>
 <meta name="description" content="记述未来，回忆往昔。">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -15,6 +15,12 @@
 <link rel="stylesheet" href="https://summerlemon1.github.io/styles/main.css">
 
 
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
@@ -23,6 +29,7 @@
 
   </head>
   <body>
+  
     <nav class="navbar border fixed split-nav">
   <div class="nav-brand">
     <h3><a href="https://summerlemon1.github.io">_hibiku樰存の日记本</a></h3>
@@ -79,16 +86,36 @@
     <div id="top" class="row site">
       <div class="sm-12 md-8 col">
         <div class="paper">
-          <h2 class="tag-list-title">标签列表</h2>
-          <div class="row tags-container">
+          <article class="article">
+            <h1>留言</h1>
+            <p class="article-meta">
+              2020-02-21
+              
+            </p>
             
-              <a href="https://summerlemon1.github.io/tag/JCAs2zzcQ/" class="badge secondary">
-                Gridea
-              </a>
+              <img src="https://summerlemon1.github.io/post-images/guestbook.jpg" alt="留言">
             
-          </div>
+            <div class="post-content">
+              <p>↓↓↓在此写下你想对樰存说的话叭~<br>
+期待你们的留言吖！</p>
+
+            </div>
+          </article>
         </div>
+        <div class="paper" data-aos="fade-in">
+          
+        </div>
+        
+          
+            <div class="paper" data-aos="fade-in">
+              <div id="gitalk-container"></div>
+            </div>
+          
+
+          
+        
       </div>
+
       <div class="sm-12 md-4 col sidebar">
   <div class="paper info-container">
     <img src="https://summerlemon1.github.io/images/avatar.png?v=1582252715096" class="no-responsive avatar">
@@ -147,7 +174,7 @@
     </div>
     <div class="row">
       
-        <a href="https://summerlemon1.github.io/tag/JCAs2zzcQ/" class="badge warning">
+        <a href="https://summerlemon1.github.io/tag/JCAs2zzcQ/" class="badge secondary">
           Gridea
         </a>
       
@@ -158,7 +185,8 @@
 Write by _hibiku樰存 | <a class="rss" href="https://summerlemon1.github.io/atom.xml" target="_blank">RSS</a>
   </div>
 </div>
-  
+
+
     </div>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -170,6 +198,29 @@ AOS.init();
 hljs.initHighlightingOnLoad()
 
 </script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '84ebb94a8b374424472c',
+        clientSecret: '28c17a8c5620564b64cc5ccc7823c4a5c9a9c5dc',
+        repo: 'summerlemon1.github.io',
+        owner: 'summerlemon1',
+        admin: ['summerlemon1'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
