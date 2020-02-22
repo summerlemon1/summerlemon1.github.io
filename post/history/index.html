@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>小本本它的前世今生 | _hibiku樰存の日记本</title>
+<meta name="description" content="记述未来，回忆往昔。">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="https://summerlemon1.github.io/favicon.ico?v=1582332662792">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://summerlemon1.github.io/styles/main.css">
+
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+  </head>
+  <body>
+  
+    <nav class="navbar border fixed split-nav">
+  <div class="nav-brand">
+    <h3><a href="https://summerlemon1.github.io">_hibiku樰存の日记本</a></h3>
+  </div>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+      <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
+        
+          <li>
+            
+              <a href="https://summerlemon1.github.io" class="menu">
+                📔首页
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/post/about" class="menu">
+                📋关于
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="https://summerlemon1.github.io/post/links" class="menu">
+                📎友链
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="https://summerlemon1.github.io/post/guestbook" class="menu">
+                💬留言
+              </a>
+            
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div id="top" class="row site">
+      <div class="sm-12 md-8 col">
+        <div class="paper">
+          <article class="article">
+            <h1>小本本它的前世今生</h1>
+            <p class="article-meta">
+              2020-02-22
+              
+            </p>
+            
+              <img src="https://summerlemon1.github.io/post-images/history.jpg" alt="小本本它的前世今生">
+            
+            <div class="post-content">
+              <p>###Gridea+GitHub托管服务使用心得与体会，以及站子未来的安排。</p>
+<p>在开完这个手账簿之后，我还有一个念头，就是开一个新的网路日志，而且是私人的，不公开的。我希望它的页面能够跟一张纸一样轻而簿，于是我就选用了静态博客。<br>
+同样在网上找好用简便的程序了很久，输入”不用代码免费创建博客“然后百度，就看到了Gridea+GitHub的推荐。Gridea是一个远程连接实时同步的博客编辑器，不用代码，能够直接在程序上配置然后编辑博客后台。GitHub是什么大家都知道吧。这里我就是用它创建了一个博客仓库，然后将Token等值复制到Gridea的配置中。就这样，一个静态博客的后台就部署好了。<br>
+因为我是一个代码小白，看到代码就眼花，所以我是看教程配置的。但是这些步骤都完成后，打开我github.io的博客地址，发现站点并没有发布。随后我看了看GitHub Pages的有关问答，如何创建以及发布GitHub网站。可是我不太懂什么专业术语，Google Chorme翻译完又不太通顺语序混乱，所以一度没有办法解决问题。<br>
+再搜了搜几篇教程，察觉是之前那个教程不够完善，好几篇Gridea的教程都说要下载并安装Git这个程序的，具体功能还不太了解，界面都是英文的，看不太懂。那好吧，你们说要安装我就安装啦。结果安装后，输入github.io的地址还是无法访问，只能用localhost在本地访问，而且还要开着Gridea才能访问，没开的话就不行。我彻底无语了。<br>
+最后我下定了决心——既然是私人的网络日记，那么域名无法访问不是更好吗？只有自己能够访问的才叫私人嘛。想到因为配置缘故不需要再设置各种权限，也不用配置Gitalk评论系统，省下了各种麻烦，我开心极了。但这个程序有的时候同步得会有点慢，还需要多多担待才好。<br>
+本来这么一想还感觉挺好的，但是我发现我还是无法忘怀那种搞完了各种东西却什么也没用的糟糕感觉。而且就算只能预览博客，那也得开着Gridea才能预览，关掉就看不到了，这样很麻烦啊。<br>
+纠结了许久，突然想起看过的多篇教程里创建仓库时，是将自己的账号用作.github.io域名的前缀的。然后好像就明白了博客为什么发布不了，因为我的账号是summerlemon1，而在创建仓库&amp;部署博客时我用的前缀是hibiku，所以弄半天什么效果都没有啊！<br>
+接着马上打开GitHub，新建一个名为【summerlemon1.github.io】的仓库，同时也是我博客的域名。再创建Token的时候引用这个仓库，分支设为master，各种设定一完事博客就访问成功了！那个时候我的心情真的无以言表，就连我自己都不知道就是创了个博客嘛干嘛那么激动。<br>
+博客一开成功后，便开始启用Gitalk评论。Gitalk是国内国外都能访问、无需翻墙的评论系统，挺多博主都选择用这个评论系统。接着就去创建了GitHub OAuth application，把ID、密钥什么的复制到Gridea，配置完成同步一下。然后再开启博客就看到了博客下面的Gitalk。<br>
+正当我喜滋滋决定给站子来一条测试评论时，Gitalk加载出来说是不能用，还要“联系@summerlemon1初始化设置”。那好吧，初始化就初始化吧，我点开了评论框处的登录按钮。登录成功评论框就出来了。我……（此时心情一言难尽，你这各种东西已经绕得我头晕乎乎的了）。不过好歹评论框出来了嗷，就先这样了吧。<br>
+到最后，评论框出来我盯着它盯了几秒——呵呵，头像图片怎么刷新也加载不出来，之前在其他用这个评论系统的博客里也看到过相同的情况。觉得这种加载不出图片的评论系统实在是与博客页面格格不入啊。正考虑在Gridea上换一个评论系统配置一下，看到另外一个能支持的是Disqus我就不吱声了——Disqus这玩意儿要爬墙才能访问，然后我又不想多花钱在买节点上，虽然有的时候会用免费ssr翻墙出去会面P站，但是免费的节点终归是免费的，访问速度时快时慢提供商的免费服务也不是永久的。所以干脆放弃挣扎，就Gitalk了，我不管了！<br>
+如果有人来评论的话那么我就开着这个评论系统，没人我就关掉它了哈。申请友链什么的其实也可以去这小本本的友链页面下方留言的啦~要注明要加哪个站点哦！我感觉也没人会加我这种弱鸟（菜鸟&amp;弱鸡结合体）的友链了哈哈。通常情况下还是要我自己厚脸皮地去申请了嗷。<br>
+反正，博客总算是发布出来了，也能松口气笑一笑了。</p>
+<blockquote>
+<p>如你所见，这篇文章很长没错，但是是由两篇文章整合在一起的。是从我在Baklib上开的站点转载过来的。因为在那里写过关于小本本的内容，所以这里不再重新写它的前世今生，干脆直接转载。<br>
+<a href="https://hibiku.baklib.com/991a/1fe1">→戳这里阅读原文←</a></p>
+</blockquote>
+<p>编辑：_hibiku樰存</p>
+
+            </div>
+          </article>
+        </div>
+        <div class="paper" data-aos="fade-in">
+          
+            <div class="next-post">
+              <div class="next">
+                下一篇
+              </div>
+              <a href="https://summerlemon1.github.io/post/hello-world/">
+                <h3 class="post-title">
+                  Every 小确幸
+                </h3>
+              </a>
+            </div>
+          
+        </div>
+        
+          
+            <div class="paper" data-aos="fade-in">
+              <div id="gitalk-container"></div>
+            </div>
+          
+
+          
+        
+      </div>
+
+      <div class="sm-12 md-4 col sidebar">
+  <div class="paper info-container">
+    <img src="https://summerlemon1.github.io/images/avatar.png?v=1582332662792" class="no-responsive avatar">
+    <div class="text-muted">记述未来，回忆往昔。</div>
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      最新文章
+    </div>
+    <div class="row">
+      <ul>
+        
+          
+            <li>
+              <a href="https://summerlemon1.github.io/post/history/">小本本它的前世今生</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://summerlemon1.github.io/post/guestbook/">留言</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://summerlemon1.github.io/post/links/">友链</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://summerlemon1.github.io/post/about/">关于</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://summerlemon1.github.io/post/hello-world/">Every 小确幸</a>
+            </li>
+          
+        
+      </ul>
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      标签列表
+    </div>
+    <div class="row">
+      
+        <a href="https://summerlemon1.github.io/tag/JCAs2zzcQ/" class="badge warning">
+          Gridea
+        </a>
+      
+    </div>
+  </div>
+  <div class="paper">
+    Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+Write by _hibiku樰存 | <a class="rss" href="https://summerlemon1.github.io/atom.xml" target="_blank">RSS</a>
+  </div>
+</div>
+
+
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+</script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '84ebb94a8b374424472c',
+        clientSecret: '28c17a8c5620564b64cc5ccc7823c4a5c9a9c5dc',
+        repo: 'summerlemon1.github.io',
+        owner: 'summerlemon1',
+        admin: ['summerlemon1'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
+  </body>
+</html>
