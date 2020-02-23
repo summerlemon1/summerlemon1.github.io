@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://summerlemon1.github.io</id>
     <title>_hibiku樰存の日记本</title>
-    <updated>2020-02-22T10:08:51.528Z</updated>
+    <updated>2020-02-23T03:12:00.089Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://summerlemon1.github.io"/>
     <link rel="self" href="https://summerlemon1.github.io/atom.xml"/>
@@ -16,6 +16,14 @@
         <link href="https://summerlemon1.github.io/post/comic-list/">
         </link>
         <updated>2020-02-22T10:05:20.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>这是@_hibiku樰存的追番列表，涵盖了想追/在追/二刷的番剧/漫画，给自己归档一下。</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>这是@_hibiku樰存的追番列表，涵盖了想追/在追/二刷的番剧/漫画，给自己归档一下。</p>
+</blockquote>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[小本本它的前世今生]]></title>
