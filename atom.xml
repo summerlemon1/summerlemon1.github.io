@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://summerlemon1.github.io</id>
-    <title>_hibiku樰存の日记本</title>
-    <updated>2020-02-24T11:19:59.507Z</updated>
+    <title>_hibiku樰存の永无岛</title>
+    <updated>2020-02-25T01:07:50.863Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://summerlemon1.github.io"/>
     <link rel="self" href="https://summerlemon1.github.io/atom.xml"/>
     <subtitle>记述未来，回忆往昔。</subtitle>
     <logo>https://summerlemon1.github.io/images/avatar.png</logo>
     <icon>https://summerlemon1.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, _hibiku樰存の日记本</rights>
+    <rights>All rights reserved 2020, _hibiku樰存の永无岛</rights>
     <entry>
         <title type="html"><![CDATA[惰]]></title>
         <id>https://summerlemon1.github.io/post/lazy/</id>
@@ -18,7 +18,7 @@
         <updated>2020-02-24T10:05:29.000Z</updated>
     </entry>
     <entry>
-        <title type="html"><![CDATA[追番列表]]></title>
+        <title type="html"><![CDATA[【TOP】追番列表]]></title>
         <id>https://summerlemon1.github.io/post/comic-list/</id>
         <link href="https://summerlemon1.github.io/post/comic-list/">
         </link>
@@ -33,7 +33,7 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[小本本它的前世今生]]></title>
+        <title type="html"><![CDATA[【TOP】关于Island]]></title>
         <id>https://summerlemon1.github.io/post/history/</id>
         <link href="https://summerlemon1.github.io/post/history/">
         </link>
