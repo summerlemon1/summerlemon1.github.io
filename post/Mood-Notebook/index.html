@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>标签列表 | _hibiku永无岛</title>
+<title>梦呓 | _hibiku永无岛</title>
 <meta name="description" content="覆水难收，永不回头。">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -15,6 +15,12 @@
 <link rel="stylesheet" href="https://summerlemon1.github.io/styles/main.css">
 
 
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
@@ -23,6 +29,7 @@
 
   </head>
   <body>
+  
     <nav class="navbar border fixed split-nav">
   <div class="nav-brand">
     <h3><a href="https://summerlemon1.github.io">_hibiku永无岛</a></h3>
@@ -87,16 +94,47 @@
     <div id="top" class="row site">
       <div class="sm-12 md-8 col">
         <div class="paper">
-          <h2 class="tag-list-title">标签列表</h2>
-          <div class="row tags-container">
+          <article class="article">
+            <h1>梦呓</h1>
+            <p class="article-meta">
+              2020-02-28
+              
+            </p>
             
-              <a href="https://summerlemon1.github.io/tag/JCAs2zzcQ/" class="badge warning">
-                Gridea
-              </a>
+              <img src="https://summerlemon1.github.io/post-images/Mood-Notebook.png" alt="梦呓">
             
-          </div>
+            <div class="post-content">
+              <blockquote>
+<p>这里是Mood Notebook，刊登自己的所思所想。</p>
+<blockquote>
+<p>也可以说是日记吧，毕竟基本会每日一记。<br>
+不同于文章，这里基本会每日一更，像是微博；文章佛系更新，不定期。</p>
+</blockquote>
+</blockquote>
+<h2 id="2020228">2020.2.28</h2>
+<p>星期五，多云，😉<br>
+今晚又有云录制的《歌手·当打之年》看了，还有《王牌对王牌第五季》，光是想想就激动，因为两档综艺都有花花。<br>
+是早上，刚刚上完网课，浑身要散架了，累。<br>
+但是想到花花的存在、漫画的存在、番剧的存在和她的存在，莞尔一笑，打起精神来了。<br>
+累？哼，有他们的存在，我一点儿也不累！</p>
+
+            </div>
+          </article>
         </div>
+        <div class="paper" data-aos="fade-in">
+          
+        </div>
+        
+          
+            <div class="paper" data-aos="fade-in">
+              <div id="gitalk-container"></div>
+            </div>
+          
+
+          
+        
       </div>
+
       <div class="sm-12 md-4 col sidebar">
   <div class="paper info-container">
     <img src="https://summerlemon1.github.io/images/avatar.png?v=1582862451097" class="no-responsive avatar">
@@ -185,7 +223,7 @@
     </div>
     <div class="row">
       
-        <a href="https://summerlemon1.github.io/tag/JCAs2zzcQ/" class="badge secondary">
+        <a href="https://summerlemon1.github.io/tag/JCAs2zzcQ/" class="badge success">
           Gridea
         </a>
       
@@ -196,7 +234,8 @@
 Write by _hibiku樰存 | <a class="rss" href="https://summerlemon1.github.io/atom.xml" target="_blank">RSS</a>
   </div>
 </div>
-  
+
+
     </div>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -208,6 +247,29 @@ AOS.init();
 hljs.initHighlightingOnLoad()
 
 </script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '84ebb94a8b374424472c',
+        clientSecret: '28c17a8c5620564b64cc5ccc7823c4a5c9a9c5dc',
+        repo: 'summerlemon1.github.io',
+        owner: 'summerlemon1',
+        admin: ['summerlemon1'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
