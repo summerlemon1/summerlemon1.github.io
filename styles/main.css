@@ -997,10 +997,14 @@ td {
       }
     
       body {
+        background: #465D4C;
+      }
+    
+      body {
         color: #f8f9fa;
       }
     
       a:hover {
-        color: #0c8599;
+        color: #1098ad;
       }
     
