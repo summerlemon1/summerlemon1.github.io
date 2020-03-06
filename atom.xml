@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://summerlemon1.github.io</id>
-    <title>_hibiku永无岛</title>
-    <updated>2020-03-06T02:35:21.658Z</updated>
+    <title>_hibiku永無島</title>
+    <updated>2020-03-06T03:52:03.515Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://summerlemon1.github.io"/>
     <link rel="self" href="https://summerlemon1.github.io/atom.xml"/>
     <logo>https://summerlemon1.github.io/images/avatar.png</logo>
     <icon>https://summerlemon1.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, _hibiku永无岛</rights>
+    <rights>All rights reserved 2020, _hibiku永無島</rights>
     <entry>
         <title type="html"><![CDATA[诸事杂记]]></title>
         <id>https://summerlemon1.github.io/post/everything/</id>
