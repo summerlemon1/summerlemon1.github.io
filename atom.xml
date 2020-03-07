@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://summerlemon1.github.io</id>
     <title>_hibiku永無島</title>
-    <updated>2020-03-07T08:37:51.206Z</updated>
+    <updated>2020-03-07T11:02:17.108Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://summerlemon1.github.io"/>
     <link rel="self" href="https://summerlemon1.github.io/atom.xml"/>
@@ -36,20 +36,12 @@
         <link href="https://summerlemon1.github.io/post/comic-list/">
         </link>
         <updated>2020-02-22T10:05:20.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote>
-<p>这是@_hibiku樰存的追番列表，涵盖了想追/在追/二刷的番剧/漫画，给自己归档一下。</p>
-</blockquote>
-]]></summary>
-        <content type="html"><![CDATA[<blockquote>
-<p>这是@_hibiku樰存的追番列表，涵盖了想追/在追/二刷的番剧/漫画，给自己归档一下。</p>
-</blockquote>
-]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【TOP】关于Island]]></title>
-        <id>https://summerlemon1.github.io/post/history/</id>
-        <link href="https://summerlemon1.github.io/post/history/">
+        <title type="html"><![CDATA[Every 小确幸]]></title>
+        <id>https://summerlemon1.github.io/post/hello-world/</id>
+        <link href="https://summerlemon1.github.io/post/hello-world/">
         </link>
-        <updated>2020-02-22T00:35:02.000Z</updated>
+        <updated>2018-12-11T16:00:00.000Z</updated>
     </entry>
 </feed>
