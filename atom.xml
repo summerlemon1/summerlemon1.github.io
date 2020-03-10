@@ -2,13 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://summerlemon1.github.io</id>
     <title>_hibiku永無島</title>
-    <updated>2020-03-10T09:31:41.804Z</updated>
+    <updated>2020-03-10T11:26:18.962Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://summerlemon1.github.io"/>
     <link rel="self" href="https://summerlemon1.github.io/atom.xml"/>
     <logo>https://summerlemon1.github.io/images/avatar.png</logo>
     <icon>https://summerlemon1.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, _hibiku永無島</rights>
+    <entry>
+        <title type="html"><![CDATA[世事难料]]></title>
+        <id>https://summerlemon1.github.io/post/how-weird-things/</id>
+        <link href="https://summerlemon1.github.io/post/how-weird-things/">
+        </link>
+        <updated>2020-03-10T02:23:04.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[最近，她]]></title>
         <id>https://summerlemon1.github.io/post/now-and-her/</id>
@@ -36,12 +43,5 @@
         <link href="https://summerlemon1.github.io/post/the heart of love/">
         </link>
         <updated>2020-02-25T09:28:46.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[惰]]></title>
-        <id>https://summerlemon1.github.io/post/lazy/</id>
-        <link href="https://summerlemon1.github.io/post/lazy/">
-        </link>
-        <updated>2020-02-24T10:05:29.000Z</updated>
     </entry>
 </feed>
