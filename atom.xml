@@ -2,13 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://summerlemon1.github.io</id>
     <title>_hibiku永無島</title>
-    <updated>2020-03-14T13:48:09.263Z</updated>
+    <updated>2020-03-15T14:55:01.927Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://summerlemon1.github.io"/>
     <link rel="self" href="https://summerlemon1.github.io/atom.xml"/>
     <logo>https://summerlemon1.github.io/images/avatar.png</logo>
     <icon>https://summerlemon1.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, _hibiku永無島</rights>
+    <entry>
+        <title type="html"><![CDATA[又在折腾…]]></title>
+        <id>https://summerlemon1.github.io/post/you-zai-zhe-teng/</id>
+        <link href="https://summerlemon1.github.io/post/you-zai-zhe-teng/">
+        </link>
+        <updated>2020-03-15T08:31:52.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[某些改变]]></title>
         <id>https://summerlemon1.github.io/post/changes/</id>
@@ -36,12 +43,5 @@
         <link href="https://summerlemon1.github.io/post/say-goodbye-to-the-memories/">
         </link>
         <updated>2020-03-09T04:00:03.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[诸事杂记]]></title>
-        <id>https://summerlemon1.github.io/post/everything/</id>
-        <link href="https://summerlemon1.github.io/post/everything/">
-        </link>
-        <updated>2020-03-05T15:21:32.000Z</updated>
     </entry>
 </feed>
