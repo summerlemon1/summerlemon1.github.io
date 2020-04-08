@@ -1,58 +1,163 @@
+
+<!DOCTYPE html>
 <html>
   <head>
-  <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>日记 | _hibiku永無島</title>
-<link rel="shortcut icon" href="https://summerlemon1.github.io/favicon.ico?v=1586348345302">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+    
+<meta charset="utf-8" >
+
+<title>日记 | _H I B I K U</title>
+<meta name="description" content="">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://summerlemon1.github.io/favicon.ico?v=1586349559149">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://summerlemon1.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="日记 | _hibiku永無島 - Atom Feed" href="https://summerlemon1.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-  <meta name="description" content="" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://summerlemon1.github.io">
-  <img class="avatar" src="https://summerlemon1.github.io/images/avatar.png?v=1586348345302" alt="">
-  </a>
-  <h1 class="site-title">
-    _hibiku永無島
-  </h1>
-  <p class="site-description">
-    
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="https://summerlemon1.github.io" class="menu">
-          📔      
-        </a>
-      
-    
-      
-        <a href="https://summerlemon1.github.io/post/about" class="menu">
-          📋      
-        </a>
-      
-    
-      
-        <a href="https://summerlemon1.github.io/post/links" class="menu">
-          🔗      
-        </a>
-      
-    
-      
-        <a href="https://summerlemon1.github.io/post/guestbook" class="menu">
-          💬
-        </a>
-      
-    
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://summerlemon1.github.io">
+        <img class="avatar" src="https://summerlemon1.github.io/images/avatar.png?v=1586349559149" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://summerlemon1.github.io">
+        <h1 class="site-title">_H I B I K U</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
   </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="https://summerlemon1.github.io" class="menu purple-link">
+            📔      
+          </a>
+        
+      
+        
+          <a href="https://summerlemon1.github.io/post/about" class="menu purple-link">
+            📋      
+          </a>
+        
+      
+        
+          <a href="https://summerlemon1.github.io/post/links" class="menu purple-link">
+            🔗      
+          </a>
+        
+      
+        
+          <a href="https://summerlemon1.github.io/post/guestbook" class="menu purple-link">
+            💬
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+
+        <div class="current-tag-container">
+          <h2 class="title">
+            <i class="icon icon-pricetags-outline"></i> 日记
+          </h2> 
+        </div>
+
+        
+<section class="post-item">
+    <div class="content">
+      <a href="https://summerlemon1.github.io/post/everything/">
+        <h2 class="post-title">诸事杂记</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2020-03-05</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://summerlemon1.github.io/tag/diary/">
+                日记
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+      <a href="https://summerlemon1.github.io/post/everything/">
+        <div class="feature-container" style="background-image: url('https://summerlemon1.github.io/post-images/everything.jpg')">
+        </div>
+      </a>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://summerlemon1.github.io/post/Mood-Notebook/">
+        <h2 class="post-title">Mood</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2020-02-28</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://summerlemon1.github.io/tag/diary/">
+                日记
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+
+<div class="pagination-container">
+  
+    <a href="https://summerlemon1.github.io/tag/diary/page/2/" class="prev"><i class="icon-arrow-ios-back-outline"></i> 上一页</a>
+  
+  
+    <a href="https://summerlemon1.github.io/tag/diary/page/4/" class="next">下一页 <i class="icon-arrow-ios-forward-outline"></i></a>
+  
+</div>
+
+
+      </div>
+
+      <div class="site-footer">
+  <div class="slogan"></div>
   <div class="social-container">
     
       
@@ -66,60 +171,26 @@
       
     
   </div>
+  Powered by <a href="https://gridea.dev" target="_blank">Gridea </a> | Made with ❤ by <a href="https://summerlemon1.github.io" target="_blank">_hibiku樰存 </a> | <a class="rss" href="https://summerlemon1.github.io/atom.xml" target="_blank">RSS</a>
 </div>
 
-        <div class="current-tag-container">
-            <h2 class="title">
-                标签：# 日记
-            </h2> 
-        </div>
-        <div class="post-container">
-  
-    <article class="post">
-      <a href="https://summerlemon1.github.io/post/now-and-her/">
-        <h2 class="post-title">最近，她</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          2020-03-09
-        </span>
-        <span>
-          1 min read
-        </span>
-        
-          <a href="https://summerlemon1.github.io/tag/diary/" class="post-tag">
-            # 日记
-          </a>
-        
-      </div>
-      
-        <a href="https://summerlemon1.github.io/post/now-and-her/" class="post-feature-image" style="background-image: url('https://summerlemon1.github.io/post-images/now-and-her.jpg')">
-        </a>
-      
-      <div class="post-abstract">
-        
-      </div>
-    </article>
-  
-</div>
 
-        <div class="pagination-container">
-  
-    <a href="https://summerlemon1.github.io/tag/diary/page/2/" class="prev-page">上一页</a>
-  
-  
-    <a href="https://summerlemon1.github.io/tag/diary/page/4/" class="next-page">下一页</a>
-  
-</div>
-
-        <div class="site-footer">
-  Powered by <a href="https://gridea.dev" target="_blank">Gridea </a> | Made with ❤ by <a href="https://summerlemon1.github.io" target="_blank">_hibiku樰存 </a>
-  <a class="rss" href="https://summerlemon1.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
-      </div>
     </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
   </body>
 </html>

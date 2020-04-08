@@ -1,107 +1,111 @@
+
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>致—心动 | _hibiku永無島</title>
-<link rel="shortcut icon" href="https://summerlemon1.github.io/favicon.ico?v=1586348345302">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+    
+<meta charset="utf-8" >
+
+<title>致—心动 | _H I B I K U</title>
+<meta name="description" content="">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://summerlemon1.github.io/favicon.ico?v=1586349559149">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://summerlemon1.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="致—心动 | _hibiku永無島 - Atom Feed" href="https://summerlemon1.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
 
-    <meta name="description" content="
-
-那些年的心动，就像酸甜的柠檬水。覆水难收，永不回头。
-
-
-2.25
-最近在看一部校园恋爱少女漫——《怦然心动》，实在是感慨万千，无处找出口，就来到一个人的孤岛大声喊出自己所思所想。
-其实我也不知道自己是怎么了，想起他总会有一些酸楚涌上心..." />
-    <meta name="keywords" content="日记" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://summerlemon1.github.io">
-  <img class="avatar" src="https://summerlemon1.github.io/images/avatar.png?v=1586348345302" alt="">
-  </a>
-  <h1 class="site-title">
-    _hibiku永無島
-  </h1>
-  <p class="site-description">
-    
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="https://summerlemon1.github.io" class="menu">
-          📔      
-        </a>
-      
-    
-      
-        <a href="https://summerlemon1.github.io/post/about" class="menu">
-          📋      
-        </a>
-      
-    
-      
-        <a href="https://summerlemon1.github.io/post/links" class="menu">
-          🔗      
-        </a>
-      
-    
-      
-        <a href="https://summerlemon1.github.io/post/guestbook" class="menu">
-          💬
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://summerlemon1.github.io">
+        <img class="avatar" src="https://summerlemon1.github.io/images/avatar.png?v=1586349559149" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://summerlemon1.github.io">
+        <h1 class="site-title">_H I B I K U</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
   </div>
 </div>
 
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="https://summerlemon1.github.io" class="menu purple-link">
+            📔      
+          </a>
+        
+      
+        
+          <a href="https://summerlemon1.github.io/post/about" class="menu purple-link">
+            📋      
+          </a>
+        
+      
+        
+          <a href="https://summerlemon1.github.io/post/links" class="menu purple-link">
+            🔗      
+          </a>
+        
+      
+        
+          <a href="https://summerlemon1.github.io/post/guestbook" class="menu purple-link">
+            💬
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
         <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              致—心动
-            </h2>
-            <div class="post-info">
-              <span>
-                2020-02-25
-              </span>
-              <span>
-                3 min read
-              </span>
-              
-                <a href="https://summerlemon1.github.io/tag/diary/" class="post-tag">
-                  # 日记
-                </a>
-              
+          
+            <div class="feature-container" style="background-image: url('https://summerlemon1.github.io/post-images/the heart of love.jpg')">
             </div>
+          
+          <h2 class="post-title">致—心动</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2020-02-25</span>
             
-              <img class="post-feature-image" src="https://summerlemon1.github.io/post-images/the heart of love.jpg" alt="">
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://summerlemon1.github.io/tag/diary/">
+                    日记
+                    
+                  </a>
+                
+              </span>
             
-            <div class="post-content-wrapper">
-              <div class="post-content">
-                <blockquote>
+          </div>
+          <div class="post-content">
+            <blockquote>
 <blockquote>
 <p>那些年的心动，就像酸甜的柠檬水。覆水难收，永不回头。</p>
 </blockquote>
@@ -122,118 +126,86 @@
 覆水难收，就不要再回忆过往，那都已是过去式。<br>
 看着未来，过好现在。</p>
 
-              </div>
-              <div class="toc-container">
-                <ul class="markdownIt-TOC">
-<li>
-<ul>
-<li>
-<ul>
-<li>
-<ul>
-<li><a href="#225">2.25</a></li>
-<li><a href="#226">2.26</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-
-              </div>
-            </div>
-          </article>
+          </div>
         </div>
 
         
           <div class="next-post">
-            <div class="next">下一篇</div>
-            <a href="https://summerlemon1.github.io/post/lazy/">
+            <a class="purple-link" href="https://summerlemon1.github.io/post/lazy/">
               <h3 class="post-title">
-                惰
+                下一篇：惰
               </h3>
             </a>
           </div>
-        
-
-        
           
-            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+      </div>
 
-<div id="gitalk-container"></div>
+      
+        
+          <div id="gitalk-container"></div>
+        
 
-<script>
+        
+      
 
-  var gitalk = new Gitalk({
-    clientID: '84ebb94a8b374424472c',
-    clientSecret: '28c17a8c5620564b64cc5ccc7823c4a5c9a9c5dc',
-    repo: 'summerlemon1.github.io',
-    owner: 'summerlemon1',
-    admin: ['summerlemon1'],
-    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
+      <div class="site-footer">
+  <div class="slogan"></div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://gridea.dev" target="_blank">Gridea </a> | Made with ❤ by <a href="https://summerlemon1.github.io" target="_blank">_hibiku樰存 </a> | <a class="rss" href="https://summerlemon1.github.io/atom.xml" target="_blank">RSS</a>
+</div>
 
-  gitalk.render('gitalk-container')
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
 </script>
 
-          
 
-          
-        
 
-        <div class="site-footer">
-  Powered by <a href="https://gridea.dev" target="_blank">Gridea </a> | Made with ❤ by <a href="https://summerlemon1.github.io" target="_blank">_hibiku樰存 </a>
-  <a class="rss" href="https://summerlemon1.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
-      </div>
-    </div>
-
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
     <script>
-      hljs.initHighlightingOnLoad()
 
-      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+      var gitalk = new Gitalk({
+        clientID: '84ebb94a8b374424472c',
+        clientSecret: '28c17a8c5620564b64cc5ccc7823c4a5c9a9c5dc',
+        repo: 'summerlemon1.github.io',
+        owner: 'summerlemon1',
+        admin: ['summerlemon1'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
 
-      // This should probably be throttled.
-      // Especially because it triggers during smooth scrolling.
-      // https://lodash.com/docs/4.17.10#throttle
-      // You could do like...
-      // window.addEventListener("scroll", () => {
-      //    _.throttle(doThatStuff, 100);
-      // });
-      // Only not doing it here to keep this Pen dependency-free.
-
-      window.addEventListener("scroll", event => {
-        let fromTop = window.scrollY;
-
-        mainNavLinks.forEach((link, index) => {
-          let section = document.getElementById(decodeURI(link.hash).substring(1));
-          let nextSection = null
-          if (mainNavLinks[index + 1]) {
-            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-          }
-          if (section.offsetTop <= fromTop) {
-            if (nextSection) {
-              if (nextSection.offsetTop > fromTop) {
-                link.classList.add("current");
-              } else {
-                link.classList.remove("current");    
-              }
-            } else {
-              link.classList.add("current");
-            }
-          } else {
-            link.classList.remove("current");
-          }
-        });
-      });
+      gitalk.render('gitalk-container')
 
     </script>
+  
+
+  
+
+
+
+
   </body>
 </html>
