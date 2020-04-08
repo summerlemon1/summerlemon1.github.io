@@ -1,111 +1,108 @@
-
-<!DOCTYPE html>
 <html>
   <head>
-    
-<meta charset="utf-8" >
-
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>诸事杂记 | _H I B I K U</title>
-<meta name="description" content="">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://summerlemon1.github.io/favicon.ico?v=1586349559149">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="https://summerlemon1.github.io/favicon.ico?v=1586349848274">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://summerlemon1.github.io/styles/main.css">
-
-
-  
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
-  
-
-  
-
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<link rel="alternate" type="application/atom+xml" title="诸事杂记 | _H I B I K U - Atom Feed" href="https://summerlemon1.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
+    <meta name="description" content="哈，最近还是发生了不少事的。
+各种各样的杂事接踵而至。
+希望属于自己历史的故纸堆不要再堆满这些玩意儿了。
+下次还是会每天都记一点点的，然后Mood页面我想尽量精简一点。
+每篇一条微博就差不多了。
+
+
+想去掉评论框，因为没什么人留言。
+删掉申..." />
+    <meta name="keywords" content="日记" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
   </head>
   <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://summerlemon1.github.io">
-        <img class="avatar" src="https://summerlemon1.github.io/images/avatar.png?v=1586349559149" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://summerlemon1.github.io">
-        <h1 class="site-title">_H I B I K U</h1>
-      </a>
-    </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://summerlemon1.github.io">
+  <img class="avatar" src="https://summerlemon1.github.io/images/avatar.png?v=1586349848274" alt="">
+  </a>
+  <h1 class="site-title">
+    _H I B I K U
+  </h1>
+  <p class="site-description">
+    
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="https://summerlemon1.github.io" class="menu">
+          📔      
+        </a>
+      
+    
+      
+        <a href="https://summerlemon1.github.io/post/about" class="menu">
+          📋      
+        </a>
+      
+    
+      
+        <a href="https://summerlemon1.github.io/post/links" class="menu">
+          🔗      
+        </a>
+      
+    
+      
+        <a href="https://summerlemon1.github.io/post/guestbook" class="menu">
+          💬
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
   </div>
 </div>
 
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
-      
-        
-          <a href="https://summerlemon1.github.io" class="menu purple-link">
-            📔      
-          </a>
-        
-      
-        
-          <a href="https://summerlemon1.github.io/post/about" class="menu purple-link">
-            📋      
-          </a>
-        
-      
-        
-          <a href="https://summerlemon1.github.io/post/links" class="menu purple-link">
-            🔗      
-          </a>
-        
-      
-        
-          <a href="https://summerlemon1.github.io/post/guestbook" class="menu purple-link">
-            💬
-          </a>
-        
-      
-    </div>
-  </div>
-</transition>
-
-
-      <div class="content-container">
         <div class="post-detail">
-          
-            <div class="feature-container" style="background-image: url('https://summerlemon1.github.io/post-images/everything.jpg')">
-            </div>
-          
-          <h2 class="post-title">诸事杂记</h2>
-          <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2020-03-05</span>
-            
+          <article class="post">
+            <h2 class="post-title">
+              诸事杂记
+            </h2>
+            <div class="post-info">
               <span>
-                <i class="icon-pricetags-outline"></i>
-                
-                  <a href="https://summerlemon1.github.io/tag/diary/">
-                    日记
-                    
-                  </a>
-                
+                2020-03-05
               </span>
+              <span>
+                2 min read
+              </span>
+              
+                <a href="https://summerlemon1.github.io/tag/diary/" class="post-tag">
+                  # 日记
+                </a>
+              
+            </div>
             
-          </div>
-          <div class="post-content">
-            <p>哈，最近还是发生了不少事的。<br>
+              <img class="post-feature-image" src="https://summerlemon1.github.io/post-images/everything.jpg" alt="">
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>哈，最近还是发生了不少事的。<br>
 各种各样的杂事接踵而至。<br>
 希望属于自己历史的故纸堆不要再堆满这些玩意儿了。<br>
 下次还是会每天都记一点点的，然后Mood页面我想尽量精简一点。<br>
@@ -127,86 +124,102 @@
 <li>事情太杂太乱了，想到什么些什么，超蒙太奇。就到这。</li>
 </ul>
 
-          </div>
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
         </div>
 
         
           <div class="next-post">
-            <a class="purple-link" href="https://summerlemon1.github.io/post/the heart of love/">
+            <div class="next">下一篇</div>
+            <a href="https://summerlemon1.github.io/post/the heart of love/">
               <h3 class="post-title">
-                下一篇：致—心动
+                致—心动
               </h3>
             </a>
           </div>
+        
+
+        
           
-      </div>
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 
-      
-        
-          <div id="gitalk-container"></div>
-        
+<div id="gitalk-container"></div>
 
-        
-      
+<script>
 
-      <div class="site-footer">
-  <div class="slogan"></div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-  Powered by <a href="https://gridea.dev" target="_blank">Gridea </a> | Made with ❤ by <a href="https://summerlemon1.github.io" target="_blank">_hibiku樰存 </a> | <a class="rss" href="https://summerlemon1.github.io/atom.xml" target="_blank">RSS</a>
-</div>
+  var gitalk = new Gitalk({
+    clientID: '84ebb94a8b374424472c',
+    clientSecret: '28c17a8c5620564b64cc5ccc7823c4a5c9a9c5dc',
+    repo: 'summerlemon1.github.io',
+    owner: 'summerlemon1',
+    admin: ['summerlemon1'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
 
-
-    </div>
-    <script type="application/javascript">
-
-hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
+  gitalk.render('gitalk-container')
 
 </script>
 
+          
 
+          
+        
 
-  
-    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+        <div class="site-footer">
+  Powered by <a href="https://gridea.dev" target="_blank">Gridea </a> | Made with ❤ by <a href="https://summerlemon1.github.io" target="_blank">_hibiku樰存 </a>
+  <a class="rss" href="https://summerlemon1.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
     <script>
+      hljs.initHighlightingOnLoad()
 
-      var gitalk = new Gitalk({
-        clientID: '84ebb94a8b374424472c',
-        clientSecret: '28c17a8c5620564b64cc5ccc7823c4a5c9a9c5dc',
-        repo: 'summerlemon1.github.io',
-        owner: 'summerlemon1',
-        admin: ['summerlemon1'],
-        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-        distractionFreeMode: false  // Facebook-like distraction free mode
-      })
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
 
-      gitalk.render('gitalk-container')
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
 
     </script>
-  
-
-  
-
-
-
-
   </body>
 </html>
